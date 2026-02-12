@@ -1,0 +1,16 @@
+
+.base-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.panel-title {
+  font-size: inherit;
+  margin: 0;
+}
+
+.base-panel h2 {
+  margin-bottom: 18px;
+}
+
