@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { X, CheckCircle2 } from 'lucide-react'
 import { TOP_COLORS, type TopColorOption } from '../../data/topColors'
-import './OrderSample.css'
+import './orderSample.css'
 
 export const OrderSampleModal = ({ onClose }: { onClose: () => void }) => {
   const navigate = useNavigate()
