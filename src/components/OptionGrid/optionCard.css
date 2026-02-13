@@ -8,11 +8,12 @@
 
 .option-image-wrapper {
   position: relative;
-  background: #fffff2;
+  background: #fffffc;
   border-radius: 20px;
   padding: 2px;
-  width :130px;
-  height: 110px;
+  width: 100%;
+  max-width: 100%;
+  min-height: 110px;
   align-content: center;
   transition: all 0.25s ease;
 }
@@ -23,9 +24,6 @@
   object-fit: contain;
 }
 
-.option-card:hover .option-image-wrapper {
-  background: #ededeb;
-}
 
 .option-label {
   font-size: 15px;
@@ -45,4 +43,19 @@
   align-items: center;
   justify-content: center;
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .option-card {
+    gap: 8px;
+  }
+
+  .option-image-wrapper {
+    border-radius: 14px;
+    min-height: 94px;
+  }
+
+  .option-label {
+    font-size: 14px;
+  }
 }

@@ -1,6 +1,13 @@
 .step-tabs {
   display: flex;
   gap: 25px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.step-tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .step {
@@ -9,9 +16,21 @@
   cursor: pointer;
   padding-bottom: 6px;
   color: #777;
+  flex: 0 0 auto;
 }
 
 .step.active {
   color: #000;
   border-bottom: 2px solid #000;
+}
+
+@media (max-width: 1024px) {
+  .step-tabs {
+    gap: 14px;
+  }
+
+  .step {
+    font-size: 15px;
+    padding-bottom: 4px;
+  }
 }

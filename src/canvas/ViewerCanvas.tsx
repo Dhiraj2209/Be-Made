@@ -297,17 +297,17 @@ export const ViewerCanvas = observer(() => {
         <directionalLight
           position={[3.8, 5.4, 3.2]}
           intensity={1.05}
-          castShadow
-          shadow-mapSize-width={4096}
-          shadow-mapSize-height={4096}
-          shadow-camera-near={0.5}
-          shadow-camera-far={20}
-          shadow-camera-left={-7}
-          shadow-camera-right={7}
-          shadow-camera-top={7}
-          shadow-camera-bottom={-7}
-          shadow-bias={-0.00022}
-          shadow-normalBias={0.02}
+          // castShadow
+          // shadow-mapSize-width={4096}
+          // shadow-mapSize-height={4096}
+          // shadow-camera-near={0.5}
+          // shadow-camera-far={20}
+          // shadow-camera-left={-7}
+          // shadow-camera-right={7}
+          // shadow-camera-top={7}
+          // shadow-camera-bottom={-7}
+          // shadow-bias={-0.00022}
+          // shadow-normalBias={0.02}
         />
 
         {/* Fill light from opposite side: softens dark areas while preserving depth. */}

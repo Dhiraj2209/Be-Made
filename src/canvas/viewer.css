@@ -293,3 +293,87 @@
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 1024px) {
+  .top-right-controls {
+    top: 14px;
+    right: 14px;
+    gap: 10px;
+  }
+
+  .bottom-left-controls {
+    bottom: 14px;
+    left: 14px;
+  }
+
+  .camera-views-controls {
+    bottom: 16px;
+  }
+
+  .camera-view-dots {
+    gap: 8px;
+  }
+
+  .camera-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .info-card-overlay {
+    width: min(86vw, 360px);
+  }
+}
+
+@media (max-width: 768px) {
+  .viewer-wrapper {
+    border-radius: 14px;
+  }
+
+  .top-right-controls {
+    top: 10px;
+    right: 10px;
+  }
+
+  .icon-btn-simple {
+    padding: 6px;
+    border-radius: 8px;
+  }
+
+  .share-panel {
+    top: 52px;
+    right: 10px;
+  }
+
+  .bottom-left-controls {
+    left: 10px;
+    bottom: 10px;
+  }
+
+  .camera-arrow-btn {
+    padding: 2px;
+  }
+
+  .camera-dot-tooltip {
+    display: none;
+  }
+
+  .info-card-overlay {
+    left: 10px;
+    right: 10px;
+    width: auto;
+    bottom: 52px;
+  }
+
+  .info-card-title {
+    font-size: 18px;
+  }
+
+  .info-card-pill {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .info-card-description {
+    font-size: 14px;
+  }
+}

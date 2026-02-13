@@ -40,7 +40,7 @@
   }
 
   .summary-value {
-    font-size: 28px;
+    font-size: 15px;
   }
 }
 
@@ -52,6 +52,27 @@
   }
 
   .summary-value {
-    font-size: 22px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .summary-bar {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .summary-item {
+    min-width: 150px;
+  }
+
+  .summary-label {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .summary-value {
+    font-size: 13px;
   }
 }
